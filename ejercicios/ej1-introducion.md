@@ -12,6 +12,6 @@
 
    (enunciado) Convierta el siguiente número hexadecimal a binario: F73AB592
 
-   (solución) F73AB591 -> 1111 0111 0011 1010 1011 0101 1001 0010
+   (solución) F73AB592 -> 1111 0111 0011 1010 1011 0101 1001 0010
 
 

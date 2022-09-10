@@ -15,7 +15,7 @@
 
 ### Ejercicio 2
 
-   (enunciado) Represente en simple precisión usando IEEE 754 los números 14 y 3.5
+   (enunciado) Represente en simple precisión usando IEEE 754 los números 15 y 3.75
     
    (solución) El valor decimal correspondiente:
    * 15   -> 8+4+2+1      -> 1111.00 * 2^0 -> 1.1110 * 2^3 -> 0 10000010 111000...
