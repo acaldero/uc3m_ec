@@ -1,4 +1,9 @@
-## Materiales usados bajo licencia [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)
+## Materiales para Estructura de Computadores
 
-## Estructura de Computadores (2022-2023)
+<html>
+<h2><ul>
+<li>License <a href="http:/creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> </li>
+<li>Curso 2022-2023</li>
+</ul></h2>
+</html>
 
