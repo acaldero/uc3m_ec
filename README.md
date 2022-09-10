@@ -104,7 +104,7 @@
 
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej3-ensamblador-riscv">Ensamblador RISC-V</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej3-ensamblador">Ensamblador RISC-V</a> </li>
       </td>
   </tr>
 
