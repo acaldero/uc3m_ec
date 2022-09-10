@@ -91,39 +91,39 @@
   <tr><th>Lección</th><th>Tema</th><th>Ejemplos</th></tr>
 
   <tr><td>1</td><td>Introducción a los computadores</td>
-      <td><ul type="1">
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej1-introducion">Introducción</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>2</td><td>Representación de la información</td>
-      <td><ul type="1">
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej2-representacion">Representación</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
-      <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej3-ensamblador">Ensamblador RISC-V</a> </li>
-      </ul></td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej3-ensamblador-riscv">Ensamblador RISC-V</a> </li>
+      </td>
   </tr>
 
   <tr><td>4</td><td>El procesador </td>
-      <td><ul type="1">
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej4-procesador">Microprogramación</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
-      <td><ul type="1">
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej5-memoria">Caché y memoria virtual</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
   <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
-      <td><ul type="1">
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej6-es">Entrada y salida</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
  </table>
