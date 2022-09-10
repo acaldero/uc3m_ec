@@ -1,6 +1,6 @@
-## Licencia [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)
+## Materiales usados bajo licencia [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)
 
-## Materiales para Estructura de Computadores (2022-2023)
+## Estructura de Computadores (2022-2023)
 
 1. ### <ins>Ensamblador I: nivel inicial</ins>
 
