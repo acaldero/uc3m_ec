@@ -82,12 +82,12 @@
 </html>
 
 
-### Ejemplos
+### Ejercicios y ejemplos
 
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lección</th><th>Tema</th><th>Ejemplos</th></tr>
+  <tr><th>Lección</th><th>Tema</th><th>Ejercicios y ejemplos</th></tr>
 
   <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
