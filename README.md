@@ -91,37 +91,37 @@
 
   <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej1-introducion">Introducción</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introducion-resueltos">Introducción</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>2</td><td>Representación de la información</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej2-representacion">Representación</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos">Representación</a> </li>
       </td>
   </tr>
 
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej3-ensamblador">Ensamblador RISC-V</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Ensamblador RISC-V</a> </li>
       </td>
   </tr>
 
   <tr><td>4</td><td>El procesador </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej4-procesador">Microprogramación</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos">Microprogramación</a> </li>
       </td>
   </tr>
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej5-memoria">Caché y memoria virtual</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos">Caché y memoria virtual</a> </li>
       </td>
   </tr>
 
   <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej6-es">Entrada y salida</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos">Entrada y salida</a> </li>
       </td>
   </tr>
 
