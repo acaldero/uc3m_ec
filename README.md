@@ -27,8 +27,7 @@
 
   <tr><td>2</td><td>Representación de la información</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-1.pdf">t2-representacion-1.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-2.pdf">t2-representacion-2.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion.pdf">t2-representacion.pdf</a></li>
       </td>
       <td>
       </td>
