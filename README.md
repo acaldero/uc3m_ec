@@ -145,14 +145,14 @@
                 <td class="align-middle">L1.- Introducción</td>
                 <td class="align-middle text-align" rowspan="2"><span class="badge bg-info">S-1</span></td>
                 <td class="align-middle">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t1-introduccion.pdf"><u>Introducción a los computadores</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
-                    <ol>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"><u>Propuestos para L1</u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej1-introducion-resueltos"><u>Resueltos para L1</u></a></li>
+                    <ol class="p-2">
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"><u>Propuestos L1</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej1-introducion-resueltos"><u>Resueltos L1</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
@@ -161,14 +161,14 @@
             <tr>
                 <td class="align-middle">L2.- Representación de la información</td>
                 <td class="align-middle">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion.pdf"><u>Representación de la información</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
-                    <ol>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"> <u>Propuestos para L2 </u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-resueltos"> <u>Resueltos para L2</u><u></u></a></li>
+                    <ol class="p-2">
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"> <u>Propuestos L2 </u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-resueltos"> <u>Resueltos L2</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
@@ -178,22 +178,22 @@
                 <td class="align-middle" rowspan="4">L3.- Programación en ensamblador</td>
                 <td class="align-middle text-align"><span class="badge bg-info">S-2</span></td>
                 <td class="align-middle">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf"> <u>Fundamentos de la programación en ensamblador</u></a></li>
-                        <ol style="padding-left: 3em !important;" type="A">
+                        <ol class="p-2" style="padding-left: 3em !important;" type="A">
                             <li><a href="https://github.com/jameslzhu/riscv-card/blob/master/riscv-card.pdf"><u>Guía reducida de RV32I</u></a></li>
                             <li><a href="https://creatorsim.github.io/creator/"><u> Simulador CREATOR</u></a></li>
                         </ol>
                     </ol>
                 </td>
                 <td rowspan="4">
-                    <ol class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"> <u>Propuestos para L3</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-resueltos"> <u>Resueltos para L3</u><u></u></a></li>
+                    <ol class="p-2" class="mt-3">
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"> <u>Propuestos L3</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-resueltos"> <u>Resueltos L3</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol start="2">
+                    <ol class="p-2" start="2">
                         <li>Ejemplos para CREATOR:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e1">S31</a>
@@ -210,7 +210,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle"><span class="badge bg-info">S-3</span></td>
                 <td class="align-middle">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf">  <u>Ensamblador: modelo de memoria</u></a></li>
                     </ol>
                 </td>
@@ -220,7 +220,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle"><span class="badge bg-info">S-4</span></td>
                 <td class="align-middle">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf"> <u>Formato de instrucción y modos de direccionamiento</u></a></li>
                     </ol>
                 </td>
@@ -230,12 +230,12 @@
             <tr class="m-2 p-2">
                 <td class="align-middle"><span class="badge bg-info">S-5</span></td>
                 <td class="align-middle">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf"> <u>Llamadas a funciones y pila<br></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol start="5">
+                    <ol class="p-2" start="5">
                         <li>Ejemplos para CREATOR:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">Function call (T86)</a>
@@ -248,21 +248,21 @@
                 <td class="align-middle" rowspan="4">L4.- Procesador</td>
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-6</span></td>
                 <td class="align-middle" rowspan="2">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-1.pdf"><u>Estructura del computador y operaciones elementales</u></a></li>
-                        <ol style="padding-left: 3em !important;" type="A">
+                        <ol class="p-2" style="padding-left: 3em !important;" type="A">
                             <li><a href="https://wepsim.github.io/wepsim"><u>Simulador WepSIM</u></a></li>
                         </ol>
                     </ol>
                 </td>
                 <td rowspan="4">
-                    <ol class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"> <u>Propuestos para L4</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"> <u>Resueltos para L4</u><u></u></a></li>
+                    <ol class="p-2" class="mt-3">
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"> <u>Propuestos L4</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"> <u>Resueltos L4</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol start="2">
+                    <ol class="p-2" start="2">
                         <li>Ejemplos para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=1">lw $reg, dir</a>
@@ -274,7 +274,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-7</span></td>
                 <td class="align-middle ">
-                    <ol start="5">
+                    <ol class="p-2" start="5">
                         <li>Ejemplos para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=0">add $reg, $reg, $reg</a>
@@ -286,7 +286,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-8</span></td>
                 <td class="align-middle" rowspan="2">
-                    <ol start="2">
+                    <ol class="p-2" start="2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf"><u>Diseño de la Unidad de Control</u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-3.pdf"><u>Interrupciones, arranque y estado del procesador</u></a></li>
                     </ol>
@@ -297,7 +297,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-9</span></td>
                 <td class="align-middle">
-                    <ol start="2">
+                    <ol class="p-2" start="2">
                         <li>Ejemplos para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=8">Interrupciones</a>
@@ -310,16 +310,16 @@
                 <td class="align-middle" rowspan="3">L5.- Sistema de memoria</td>
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-10</span></td>
                 <td class="align-middle">
-                    <ol start="1">
+                    <ol class="p-2" start="1">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-1-intro.pdf"><u>Jerarquía de memoria</u></a></li>
                     </ol>
                 </td>
                 <td rowspan="3">
-                    <ol class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-propuestos"> <u>Propuestos para L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-propuestos"> <u>Propuestos para L5-virtual</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos"> <u>Resueltos para L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos"> <u>Resueltos para L5-virtual</u><u></u></a></li>
+                    <ol class="p-2" class="mt-3">
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-propuestos"> <u>Propuestos L5-cache</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-propuestos"> <u>Propuestos L5-virtual</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos"> <u>Resueltos L5-cache</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos"> <u>Resueltos L5-virtual</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -328,7 +328,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-11</span></td>
                 <td class="align-middle">
-                    <ol start="2">
+                    <ol class="p-2" start="2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-2-cache.pdf"><u>Memoria Caché</u></a></li>
                     </ol>
                 </td>
@@ -338,7 +338,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-12</span></td>
                 <td class="align-middle">
-                    <ol start="3">
+                    <ol class="p-2" start="3">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-3-virtual.pdf"><u>Memoria Virtual</u></a></li>
                     </ol>
                 </td>
@@ -349,14 +349,14 @@
                 <td class="align-middle" rowspan="2">L6.- Input/Output systems</td>
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-13</span></td>
                 <td class="align-middle" rowspan="2">
-                    <ol>
+                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t6-es.pdf"><u>Sistema de E/S</u></a></li>
                     </ol>
                 </td>
                 <td rowspan="2">
-                    <ol class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"> <u>Propuestos para L6</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"> <u>Resueltos para L6</u><u></u></a></li>
+                    <ol class="p-2 mt-3">
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"> <u>Propuestos L6</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"> <u>Resueltos L6</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -365,7 +365,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-14</span></td>
                 <td class="align-middle ">
-                    <ol start="2">
+                    <ol class="p-2" start="2">
                         <li>Ejemplos para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=12&amp;simulator=assembly:screen&amp;notify=false">Teclado y pantalla</a>
