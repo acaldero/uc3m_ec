@@ -115,7 +115,8 @@
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos">Caché y memoria virtual</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos">Memoria caché</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos">Memoria virtual</a> </li>
       </td>
   </tr>
 
@@ -179,7 +180,7 @@
                 <td class="align-middle text-align"><span class="badge bg-info">S-2</span></td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf"> <u>Fundamentos de la programación en ensamblador</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf"><u>Fundamentos de la programación en ensamblador</u></a></li>
                         <ol class="p-2" style="padding-left: 3em !important;" type="A">
                             <li><a href="https://github.com/jameslzhu/riscv-card/blob/master/riscv-card.pdf"><u>Guía reducida de RV32I</u></a></li>
                             <li><a href="https://creatorsim.github.io/creator/"><u> Simulador CREATOR</u></a></li>
@@ -316,10 +317,10 @@
                 </td>
                 <td rowspan="3">
                     <ol class="p-2" class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-propuestos"> <u>Propuestos L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-propuestos"> <u>Propuestos L5-virtual</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos"> <u>Resueltos L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoria-resueltos"> <u>Resueltos L5-virtual</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-propuestos"><u>Propuestos L5-cache</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos"><u>Resueltos L5-cache</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-propuestos"><u>Propuestos L5-virtual</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos"><u>Resueltos L5-virtual</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
