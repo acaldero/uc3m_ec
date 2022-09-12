@@ -151,8 +151,8 @@
                 </td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"><u>Propuestos L1</u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/ej1-introducion-resueltos"><u>Resueltos L1</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-propuestos"><u>Propuestos L1</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos"><u>Resueltos L1</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
@@ -167,8 +167,8 @@
                 </td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"> <u>Propuestos L2 </u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-resueltos"> <u>Resueltos L2</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-propuestos"><u>Propuestos L2 </u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos"><u>Resueltos L2</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
@@ -188,8 +188,8 @@
                 </td>
                 <td rowspan="4">
                     <ol class="p-2" class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-propuestos"> <u>Propuestos L3</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-propuestos-resueltos"> <u>Resueltos L3</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos"><u>Propuestos L3</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos"><u>Resueltos L3</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -211,7 +211,7 @@
                 <td class="align-middle"><span class="badge bg-info">S-3</span></td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf">  <u>Ensamblador: modelo de memoria</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf"><u>Ensamblador: modelo de memoria</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -221,7 +221,7 @@
                 <td class="align-middle"><span class="badge bg-info">S-4</span></td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf"> <u>Formato de instrucción y modos de direccionamiento</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf"><u>Formato de instrucción y modos de direccionamiento</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -231,7 +231,7 @@
                 <td class="align-middle"><span class="badge bg-info">S-5</span></td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf"> <u>Llamadas a funciones y pila<br></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf"><u>Llamadas a funciones y pila<br></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -257,8 +257,8 @@
                 </td>
                 <td rowspan="4">
                     <ol class="p-2" class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"> <u>Propuestos L4</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"> <u>Resueltos L4</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-propuestos"><u>Propuestos L4</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"><u>Resueltos L4</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -355,8 +355,8 @@
                 </td>
                 <td rowspan="2">
                     <ol class="p-2 mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"> <u>Propuestos L6</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"> <u>Resueltos L6</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-propuestos"><u>Propuestos L6</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"><u>Resueltos L6</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -377,3 +377,4 @@
         </tbody>
     </table>
 </html>
+
