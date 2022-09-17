@@ -91,7 +91,7 @@
 
   <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introducion-resueltos">Introducción</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos">Introducción</a> </li>
       </ul></td>
   </tr>
 
