@@ -41,6 +41,8 @@
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf">t3-ensamblador-4.pdf</a></li>
       </td>
       <td>
+      <li><a href="https://youtu.be/6W1DJ6jqn58">(1) Registros y memoria</a></li>
+      <li><a href="https://youtu.be/ChgB-mfHLas">(2) Comentarios, directivas y llamadas al sistema</a></li>
       </td>
   </tr>
 
@@ -51,11 +53,11 @@
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-3.pdf">t4-procesador-3.pdf</a></li>
       </td>
       <td>
-      <li><a href="https://aulaglobal.uc3m.es/mod/url/view.php?id=4115210">(1) Registros + swap R1 R2</a></li>
-      <li><a href="https://aulaglobal.uc3m.es/mod/url/view.php?id=4115211">(2) ALU + add R3 R1 R2</a></li>
-      <li><a href="https://aulaglobal.uc3m.es/mod/url/view.php?id=4115212">(3) Mem. principal + lw/sw R1 dirección</a></li>
-      <li><a href="https://aulaglobal.uc3m.es/mod/url/view.php?id=4115213">(4) PC & IR + j/b address</a></li>
-      <li><a href="https://aulaglobal.uc3m.es/mod/url/view.php?id=4115214">(5) SR + beq r1 r2 offset</a></li>
+      <li><a href="https://youtu.be/bg_fx1A6sCU">(1) Registros + swap R1 R2</a></li>
+      <li><a href="https://youtu.be/BiqTHzqlniw">(2) ALU + add R3 R1 R2</a></li>
+      <li><a href="https://youtu.be/LoijxR-N-40">(3) Mem. principal + lw/sw R1 dirección</a></li>
+      <li><a href="https://youtu.be/2u5aVJ3fzg4">(4) PC & IR + j/b address</a></li>
+      <li><a href="https://youtu.be/TjYkV4oX3JU">(5) SR + beq r1 r2 offset</a></li>
       </td>
   </tr>
 
