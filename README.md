@@ -90,23 +90,28 @@
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lección</th><th>Tema</th><th>Ejercicios y ejemplos</th></tr>
+  <tr><th>Lección</th><th>Tema</th><th>Ejercicios</th><th>Ejemplos</th></tr>
 
   <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos">Introducción</a> </li>
-      </ul></td>
+      </td>
+      <td></td>
   </tr>
 
   <tr><td>2</td><td>Representación de la información</td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos">Representación</a> </li>
       </td>
+      <td></td>
   </tr>
 
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Ensamblador RISC-V</a> </li>
+      </td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a> </li>
       </td>
   </tr>
 
@@ -114,6 +119,7 @@
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos">Microprogramación</a> </li>
       </td>
+      <td></td>
   </tr>
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
@@ -121,12 +127,14 @@
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos">Memoria caché</a> </li>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos">Memoria virtual</a> </li>
       </td>
+      <td></td>
   </tr>
 
   <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos">Entrada y salida</a> </li>
       </td>
+      <td></td>
   </tr>
 
  </table>
