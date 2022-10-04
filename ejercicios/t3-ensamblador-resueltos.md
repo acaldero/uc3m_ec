@@ -8,129 +8,79 @@
 </html>
 
 
-1. ### <ins>Ensamblador I: nivel inicial</ins>
+### Ejercicio 1
 
-<html>
- <small>
- <table style="width:100%;" width="100%">
-  <tr><th>Orden</th><th>Ejemplo</th><th colspan=2>Código (hacer click para cargar)</th></tr>
+   (enunciado) Implemente una función/subrutina strlen que se le pase como argumento la dirección de una cadena de caracteres y devuelva el número de caracteres en la cadena. 
+               Siga el convenio de paso de parámetros y uso de registros visto en clase.
+    
+   (solución) El siguiente código RISC-V implementa la funcionalidad pedida.
 
-  <tr><td>1</td>
-     <td>Uso de las instrucciones aritméticas y lógicas</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-RISCV&example=0&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-MIPS&example=0&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
+```
+.text
+  # strlen(a0 -> "hola") -> 4
+  strlen: # acc = 0
+          # i = 0
+          # while a0[i] != 0:
+          #    acc+=1; i+=1;
+          # return acc
+          li t1 0
+   loop1: lbu t0 0(a0)
+          beq t0 x0 end1
+          addi t1 t1 1
+          addi a0 a0 1
+          j loop1
+    end1: mv a0 t1
+          jr ra 
+```
 
-  <tr><td>2</td><td>Traducción de bucles for/while</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-RISCV&example=2&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-MIPS&example=2&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
+### Ejercicio 2
 
-  <tr><td>3</td><td>Traducción de bloques If-Then y If-Then-Else a ensamblador</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-RISCV&example=3&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-MIPS&example=3&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
+   (enunciado) Implemente un programa principal (main:) que use la rutina/función strlen del ejercicio 1 para calcular e imprimir la longitud de las cadenas "hola" y "mundo". 
+               Siga el convenio de paso de parámetros y uso de registros visto en clase.
+    
+   (solución) El siguiente código RISC-V implementa la funcionalidad pedida.
 
- </table>
- </small>
-</html>
+```
+.data
+  str1: .string  "hola"
+  str2: .string  "mundo"
+  
+.text
+  strlen: li t1 0
+   loop1: lbu t0 0(a0)
+          beq t0 x0 end1
+          addi t1 t1 1
+          addi a0 a0 1
+          j loop1
+    end1: mv a0 t1
+          jr ra 
+   
+  main:
+    # push ra
+    addi sp sp -4
+    sw ra 0(sp)
+    
+    # strlen("hola")
+    la  a0 str1
+    jal ra strlen   
+    
+    # print(a0)
+    li a7 1
+    ecall
+ 
+    # strlen("mundo")
+    la  a0 str2
+    jal ra strlen  
 
+    # print(a0)
+    li a7 1
+    ecall
 
-2. ### <ins>Ensamblador II: nivel medio</ins>  
-
-<html>
- <small>
- <table style="width:100%;" width="100%">
-  <tr><th>Orden</th><th>Ejemplo</th><th colspan=2>Código (hacer click para cargar)</th></tr>
-
-  <tr><td>4</td><td>Dividir en sus partes (signo, exponente, mantisa) un valor IEEE754</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-RISCV&example=6&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-MIPS&example=5&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
-
-  <tr><td>5</td><td>Dado un vector de enteros, calcular la suma de sus elementos</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-RISCV&example=4&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-MIPS&example=4&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
-
-  <tr><td>6</td><td>Matriz: contar el número de elementos a cero en los valores enteros de una matriz</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-RISCV&example=7&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/wepsim-classic.html?mode=ep&examples_set=Default-MIPS&example=7&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
-
-  <tr><td>7</td><td>Llamada a función: Factorial</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-RISCV&example=9&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-MIPS&example=16&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
-
- </table>
- </small>
-</html>
-
-
-3. ### <ins>Ensamblador III: nivel avanzado</ins>  
-
-<html>
- <small>
- <table style="width:100%;" width="100%">
-  <tr><th>Orden</th><th>Ejemplo</th><th colspan=2>Código (hacer click para cargar)</th></tr>
-
-  <tr><td>8</td><td>E/S dispositivo: Led matrix</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-RISCV&example=18&simulator=assembly:ledmatrix"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-MIPS&example=14&simulator=assembly:ledmatrix"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
-
-  <tr><td>9</td><td>Eventos de sistema: Floating point exception, system call, and an interrupt</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-RISCV&example=15&simulator=assembly:register_file"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-MIPS&example=12&simulator=assembly:screen"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
-
-  <tr><td>10</td><td>Round-robin: Dos hilos en round-robin</td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-RISCV&example=19&simulator=assembly:screen"><span class="rounded text-primary font-weight-bold">RISC-V<sub>32i</sub></span></a>
-      </td>
-      <td>
-      <a class="btn btn-outline-primary py-0 my-1 text-dark font-weight-bold text-justify" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=Default-MIPS&example=19&simulator=assembly:screen"><span class="rounded text-primary font-weight-bold">MIPS<sub>32</sub></span></a>
-      </td>
-  </tr>
-
- </table>
- </small>
-</html>
+    # pop ra
+    lw ra 0(sp)
+    addi sp sp 4
+    
+    # return
+    jr ra
+```
 
