@@ -8,3 +8,44 @@
 </html>
 
 
+### Ejercicio 1
+
+   (enunciado)
+<html>
+Rellene la siguiente tabla con las operaciones elementales y señales de control asociadas a la instrucción "BEQ Rf1, Rf2, desp".
+
+<table>
+<tr>
+<td>Ciclo</td>
+<td>Op. Elemental</td>
+<td>Señales activadas (resto a 0)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</html>
+
+
