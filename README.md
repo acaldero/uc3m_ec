@@ -158,15 +158,15 @@
 <html>
     <table class="table table-bordered table-sm table-hover px-0 mx-0" style="width:100%;" width="100%">
             <tr>
-                <th width="15%">Lección</th>
                 <th width="4%">Semana</th>
+                <th width="15%">Lección</th>
                 <th width="36%">Transparencias</th>
                 <th width="20%">Ejercicios</th>
                 <th width="25%">Ejemplos</th>
             </tr>
             <tr>
-                <td class="align-middle">L1.- Introducción</td>
                 <td class="align-middle text-align" rowspan="2"><span class="badge bg-info">S-1</span></td>
+                <td class="align-middle">L1.- Introducción</td>
                 <td class="align-middle">
                     <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t1-introduccion.pdf"><u>Introducción a los computadores</u></a></li>
@@ -198,8 +198,8 @@
                 </td>
             </tr>
             <tr class="m-2 p-2">
-                <td class="align-middle" rowspan="4">L3.- Programación en ensamblador</td>
                 <td class="align-middle text-align"><span class="badge bg-info">S-2</span></td>
+                <td class="align-middle" rowspan="4">L3.- Programación en ensamblador</td>
                 <td class="align-middle">
                     <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf"><u>Fundamentos de la programación en ensamblador</u></a></li>
@@ -269,8 +269,8 @@
                 </td>
             </tr>
             <tr class="m-2 p-2">
-                <td class="align-middle" rowspan="4">L4.- Procesador</td>
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-6</span></td>
+                <td class="align-middle" rowspan="4">L4.- Procesador</td>
                 <td class="align-middle" rowspan="2">
                     <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-1.pdf"><u>Estructura del computador y operaciones elementales</u></a></li>
@@ -331,8 +331,8 @@
                 </td>
             </tr>
             <tr class="m-2 p-2">
-                <td class="align-middle" rowspan="3">L5.- Sistema de memoria</td>
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-10</span></td>
+                <td class="align-middle" rowspan="3">L5.- Sistema de memoria</td>
                 <td class="align-middle">
                     <ol class="p-2" start="1">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-1-intro.pdf"><u>Jerarquía de memoria</u></a></li>
@@ -370,8 +370,8 @@
                 </td>
             </tr>
             <tr class="m-2 p-2">
-                <td class="align-middle" rowspan="2">L6.- Input/Output systems</td>
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-13</span></td>
+                <td class="align-middle" rowspan="2">L6.- Sistemas de Entrada/Salida</td>
                 <td class="align-middle" rowspan="2">
                     <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t6-es.pdf"><u>Sistema de E/S</u></a></li>
