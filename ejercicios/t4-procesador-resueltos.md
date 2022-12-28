@@ -21,29 +21,9 @@ Rellene la siguiente tabla con las operaciones elementales y señales de control
 <td>Señales activadas (resto a 0)</td>
 </tr>
 <tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
 </tr>
 </table>
 </html>
@@ -66,7 +46,9 @@ Rellene la siguiente tabla con las operaciones elementales y señales de control
 
 <tr>
 <td>1</td>
-<td>If (Z == 0) goto fetch else next</td>
+<td>If (Z == 0)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; goto fetch<br>
+    else next</td>
 <td>MADDR=0, C=0110, B=1, A0=0</td>
 </tr>
 
