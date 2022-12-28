@@ -85,56 +85,67 @@
 </html>
 
 
-### Ejercicios y ejemplos
+### Ejercicios
 
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lección</th><th>Tema</th><th>Ejercicios</th><th>Ejemplos</th></tr>
+  <tr><th>Lección</th><th>Tema</th><th>Enunciados</th><th>Soluciones</th></tr>
 
   <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-propuestos">Introducción</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos">Introducción</a> </li>
       </td>
-      <td></td>
   </tr>
 
   <tr><td>2</td><td>Representación de la información</td>
       <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-propuestos">Representación</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos">Representación</a> </li>
       </td>
-      <td></td>
   </tr>
 
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Ensamblador RISC-V</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos">Ensamblador RISC-V</a> </li>
       </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Ensamblador RISC-V</a> </li>
       </td>
   </tr>
 
   <tr><td>4</td><td>El procesador </td>
       <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-propuestos">Microprogramación</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos">Microprogramación</a> </li>
       </td>
-      <td></td>
   </tr>
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
       <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-propuestos">Memoria caché</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-propuestos">Memoria virtual</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos">Memoria caché</a> </li>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos">Memoria virtual</a> </li>
       </td>
-      <td></td>
   </tr>
 
   <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
       <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-propuestos">Entrada y salida</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos">Entrada y salida</a> </li>
       </td>
-      <td></td>
   </tr>
 
  </table>
@@ -216,6 +227,7 @@
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e7">T57</a>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e8">T60</a>
                         </div>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
                     </ol>
                 </td>
             </tr>
