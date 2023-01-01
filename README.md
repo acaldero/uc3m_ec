@@ -11,7 +11,7 @@
 
   <tr><td>1</td><td>Presentación</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t0-presentacion-objetivos.pdf">t0-presentacion-objetivos.pdf</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t0-presentacion.pdf">t0-presentacion.pdf</a> </li>
       </td>
       <td>
       </td>
@@ -113,6 +113,7 @@
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos">Ensamblador RISC-V</a> </li>
+	<li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
       </td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Ensamblador RISC-V</a> </li>
@@ -216,8 +217,8 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="2">
-                        <li>Ejemplos para CREATOR:</li>
+                    <ol class="p-2" start="1">
+                        <li>Para CREATOR:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e1">T31</a>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e2">T32</a>
@@ -227,14 +228,28 @@
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e7">T57</a>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e8">T60</a>
                         </div>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
+
+                        <li>Para CREATOR:</li>
+                        <div class="">
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=0">T35</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=1">T37</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=2">T39</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=3">T56</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=4">T63</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=5">T64</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=6">T65</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=7">T67</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=8">T70</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=9">T74</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=10">T78</a>
+                        </div>
                     </ol>
                 </td>
             </tr>
             <tr class="m-2 p-2">
                 <td class="align-middle"><span class="badge bg-info">S-3</span></td>
                 <td class="align-middle">
-                    <ol class="p-2">
+                    <ol class="p-2" start="2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf"><u>Ensamblador: modelo de memoria</u></a></li>
                     </ol>
                 </td>
@@ -244,7 +259,7 @@
             <tr class="m-2 p-2">
                 <td class="align-middle"><span class="badge bg-info">S-4</span></td>
                 <td class="align-middle">
-                    <ol class="p-2">
+                    <ol class="p-2" start="3">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf"><u>Formato de instrucción y modos de direccionamiento</u></a></li>
                     </ol>
                 </td>
@@ -254,13 +269,13 @@
             <tr class="m-2 p-2">
                 <td class="align-middle"><span class="badge bg-info">S-5</span></td>
                 <td class="align-middle">
-                    <ol class="p-2">
+                    <ol class="p-2" start="4">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf"><u>Llamadas a funciones y pila<br></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="5">
-                        <li>Ejemplos para CREATOR:</li>
+                    <ol class="p-2" start="1">
+                        <li>Para CREATOR:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">Function call (T86)</a>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e14">Factorial (T111)</a>
@@ -286,8 +301,8 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="2">
-                        <li>Ejemplos para WepSIM:</li>
+                    <ol class="p-2" start="1">
+                        <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">lw  r1, addr</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">beq r1, r2, offset</a>
@@ -298,8 +313,8 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-7</span></td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="5">
-                        <li>Ejemplos para WepSIM:</li>
+                    <ol class="p-2" start="1">
+                        <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">add r3, r1, r2</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">li r1, value</a>
@@ -321,8 +336,8 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-9</span></td>
                 <td class="align-middle">
-                    <ol class="p-2" start="2">
-                        <li>Ejemplos para WepSIM:</li>
+                    <ol class="p-2" start="1">
+                        <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">Interrupciones</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=12">Llamadas al sistema</a>
@@ -389,8 +404,8 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-14</span></td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="2">
-                        <li>Ejemplos para WepSIM:</li>
+                    <ol class="p-2" start="1">
+                        <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=14&amp;simulator=assembly:screen&amp;notify=false">Teclado y pantalla</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=17&amp;simulator=assembly:3dled&amp;notify=false">Cubo de luces LED</a>
