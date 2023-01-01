@@ -113,10 +113,10 @@
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos">Ensamblador RISC-V</a> </li>
-	<li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
       </td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Ensamblador RISC-V</a> </li>
+	<li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
       </td>
   </tr>
 
@@ -217,19 +217,7 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="1">
-                        <li>Para CREATOR:</li>
-                        <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e1">T31</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e2">T32</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e3">T35</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e4">T49</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e6">T54</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e7">T57</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e8">T60</a>
-                        </div>
-
-                        <li>Para CREATOR:</li>
+                        <li>Para WepSIM:</li>
                         <div class="">
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=0">T35</a>
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=1">T37</a>
@@ -243,7 +231,16 @@
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=9">T74</a>
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=10">T78</a>
                         </div>
-                    </ol>
+                        <li>Para CREATOR:</li>
+                        <div class="">
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e1">T31</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e2">T32</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e3">T35</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e4">T49</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e6">T54</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e7">T57</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e8">T60</a>
+                        </div>
                 </td>
             </tr>
             <tr class="m-2 p-2">
@@ -274,13 +271,11 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="1">
                         <li>Para CREATOR:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">Function call (T86)</a>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e14">Factorial (T111)</a>
                         </div>
-                    </ol>
                 </td>
             </tr>
             <tr class="m-2 p-2">
@@ -301,25 +296,21 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="1">
                         <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">lw  r1, addr</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">beq r1, r2, offset</a>
                         </div>
-                    </ol>
                 </td>
             </tr>
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-7</span></td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="1">
                         <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">add r3, r1, r2</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">li r1, value</a>
                         </div>
-                    </ol>
                 </td>
             </tr>
             <tr class="m-2 p-2">
@@ -336,13 +327,11 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-9</span></td>
                 <td class="align-middle">
-                    <ol class="p-2" start="1">
                         <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">Interrupciones</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=12">Llamadas al sistema</a>
                         </div>
-                    </ol>
                 </td>
             </tr>
             <tr class="m-2 p-2">
@@ -404,13 +393,11 @@
             <tr class="m-2 p-2">
                 <td class="align-middle justify-content-center"><span class="badge bg-info">S-14</span></td>
                 <td class="align-middle ">
-                    <ol class="p-2" start="1">
                         <li>Para WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=14&amp;simulator=assembly:screen&amp;notify=false">Teclado y pantalla</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=17&amp;simulator=assembly:3dled&amp;notify=false">Cubo de luces LED</a>
                         </div>
-                    </ol>
                 </td>
             </tr>
         </tbody>
