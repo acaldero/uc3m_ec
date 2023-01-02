@@ -174,10 +174,8 @@
                     </ol>
                 </td>
                 <td class="align-middle">
-                    <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-propuestos"><u>Propuestos L1</u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos"><u>Resueltos L1</u></a></li>
-                    </ol>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-propuestos"><u>Propuestos L1</u></a></li>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos"><u>Resueltos L1</u></a></li>
                 </td>
                 <td class="align-middle">
                 </td>
@@ -190,10 +188,8 @@
                     </ol>
                 </td>
                 <td class="align-middle">
-                    <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-propuestos"><u>Propuestos L2 </u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos"><u>Resueltos L2</u><u></u></a></li>
-                    </ol>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-propuestos"><u>Propuestos L2 </u></a></li>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos"><u>Resueltos L2</u><u></u></a></li>
                 </td>
                 <td class="align-middle">
                 </td>
@@ -211,10 +207,8 @@
                     </ol>
                 </td>
                 <td rowspan="4">
-                    <ol class="p-2" class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos"><u>Propuestos L3</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos"><u>Resueltos L3</u><u></u></a></li>
-                    </ol>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos"><u>Propuestos L3</u><u></u></a></li>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos"><u>Resueltos L3</u><u></u></a></li>
                 </td>
                 <td class="align-middle ">
                         <li>Para WepSIM:</li>
@@ -306,16 +300,14 @@
                     </ol>
                 </td>
                 <td rowspan="4">
-                    <ol class="p-2" class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-propuestos"><u>Propuestos L4</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"><u>Resueltos L4</u><u></u></a></li>
-                    </ol>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-propuestos"><u>Propuestos L4</u><u></u></a></li>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos"><u>Resueltos L4</u><u></u></a></li>
                 </td>
                 <td class="align-middle ">
                         <li>Para WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">lw  r1, addr</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">beq r1, r2, offset</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">T52 (add r3, r1, r2)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">T102 (beq r1, r2, offset)</a>
                         </div>
                 </td>
             </tr>
@@ -324,8 +316,7 @@
                 <td class="align-middle ">
                         <li>Para WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">add r3, r1, r2</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">li r1, value</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">T116 (lw  r1, addr)</a><br>
                         </div>
                 </td>
             </tr>
@@ -334,7 +325,7 @@
                 <td class="align-middle" rowspan="2">
                     <ol class="p-2" start="2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf"><u>Diseño de la Unidad de Control</u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-3.pdf"><u>Interrupciones, arranque y estado del procesador</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf"><u>Interrupciones, arranque y estado del procesador</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -369,12 +360,11 @@
                     </ol>
                 </td>
                 <td rowspan="3">
-                    <ol class="p-2" class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-propuestos"><u>Propuestos L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos"><u>Resueltos L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-propuestos"><u>Propuestos L5-virtual</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos"><u>Resueltos L5-virtual</u><u></u></a></li>
-                    </ol>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-propuestos"><u>Propuestos L5-cache</u><u></u></a></li>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos"><u>Resueltos L5-cache</u><u></u></a></li>
+                    <br>		    
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-propuestos"><u>Propuestos L5-virtual</u><u></u></a></li>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos"><u>Resueltos L5-virtual</u><u></u></a></li>
                 </td>
                 <td class="align-middle ">
                 </td>
@@ -408,10 +398,8 @@
                     </ol>
                 </td>
                 <td rowspan="2">
-                    <ol class="p-2 mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-propuestos"><u>Propuestos L6</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"><u>Resueltos L6</u><u></u></a></li>
-                    </ol>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-propuestos"><u>Propuestos L6</u><u></u></a></li>
+                    <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos"><u>Resueltos L6</u><u></u></a></li>
                 </td>
                 <td class="align-middle ">
                 </td>
