@@ -2,16 +2,16 @@
 + Curso 2022-2023
 + Licencia [CC BY-NC 4.0](http:/creativecommons.org/licenses/by-nc/4.0/) 
 
-### Transparencias
+### Transparencias y videos
 
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lección</th><th width="25%">Tema</th><th>Transparencias</th><th>Video</th></tr>
+  <tr><th></th><th width="25%">Tema</th><th>Transparencias (PDF)</th><th>Video (YouTube)</th></tr>
 
   <tr><td>1</td><td>Presentación</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t0-presentacion.pdf">t0-presentacion.pdf</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t0-presentacion.pdf">t0-presentacion</a> </li>
       </td>
       <td>
       </td>
@@ -19,7 +19,7 @@
 
   <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t1-introduccion.pdf">t1-introduccion.pdf</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t1-introduccion.pdf">t1-introduccion</a> </li>
       </td>
       <td>
       </td>
@@ -27,7 +27,7 @@
 
   <tr><td>2</td><td>Representación de la información</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion.pdf">t2-representacion.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion.pdf">t2-representacion</a></li>
       </td>
       <td>
       </td>
@@ -35,10 +35,10 @@
 
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf">t3-ensamblador-1.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf">t3-ensamblador-2.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf">t3-ensamblador-3.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf">t3-ensamblador-4.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf">t3-ensamblador-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf">t3-ensamblador-2</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf">t3-ensamblador-3</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf">t3-ensamblador-4</a></li>
       </td>
       <td>
       <li><a href="https://youtu.be/6W1DJ6jqn58">(1) Registros y memoria</a></li>
@@ -50,8 +50,8 @@
 
   <tr><td>4</td><td>El procesador </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-1.pdf">t4-procesador-1.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf">t4-procesador-2.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-1.pdf">t4-procesador-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf">t4-procesador-2</a></li>
       </td>
       <td>
       <li><a href="https://youtu.be/bg_fx1A6sCU">(1) Registros + swap R1 R2</a></li>
@@ -64,9 +64,9 @@
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-1-intro.pdf">t5-memoria-1-intro.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-2-cache.pdf">t5-memoria-2-cache.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-3-virtual.pdf">t5-memoria-3-virtual.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-1-intro.pdf">t5-memoria-1-intro</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-2-cache.pdf">t5-memoria-2-cache</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-3-virtual.pdf">t5-memoria-3-virtual</a></li>
       </td>
       <td>
       </td>
@@ -74,7 +74,7 @@
 
   <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t6-es.pdf">t6-es.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t6-es.pdf">t6-es</a></li>
       </td>
       <td>
       </td>
@@ -90,7 +90,7 @@
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lección</th><th>Tema</th><th>Enunciados</th><th>Soluciones</th></tr>
+  <tr><th></th><th>Tema</th><th>Enunciados</th><th>Soluciones</th></tr>
 
   <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
