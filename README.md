@@ -7,21 +7,20 @@
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th></th><th width="25%">Tema</th><th>Transparencias (PDF)</th><th>Video (YouTube)</th></tr>
+  <tr><th></th><th width="25%">Tema</th><th>Transparencias (PDF)</th><th>Video (YouTube)</th><th>Ejercicios</th></tr>
 
-  <tr><td>1</td><td>Presentación</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t0-presentacion.pdf">t0-presentacion</a> </li>
-      </td>
-      <td>
-      </td>
+  <tr><td>0</td><td>Presentación</td>
+      <td><li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t0-presentacion.pdf">t0-presentacion</a> </li></td>
+      <td></td>
+      <td></td>
   </tr>
 
   <tr><td>1</td><td>Introducción a los computadores</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t1-introduccion.pdf">t1-introduccion</a> </li>
-      </td>
-      <td>
+      <td> <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t1-introduccion.pdf">t1-introduccion</a> </li> </td>
+      <td> </td>
+      <td> 
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-propuestos">Enunciados</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos">Soluciones</a> </li>
       </td>
   </tr>
 
@@ -29,7 +28,10 @@
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion.pdf">t2-representacion</a></li>
       </td>
+      <td> </td>
       <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-propuestos">Enunciados</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos">Soluciones</a> </li>
       </td>
   </tr>
 
@@ -46,6 +48,10 @@
       <li><a href="https://youtu.be/QttD31Ak5Gw">(3) Acceso a memoria</a></li>
       <li><a href="https://youtu.be/MG6-OMdII2U">(4) Convenio de parámetros y uso de pila</a></li>
       </td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos">Enunciados</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Soluciones</a> </li>
+      </td>
   </tr>
 
   <tr><td>4</td><td>El procesador </td>
@@ -60,6 +66,10 @@
       <li><a href="https://youtu.be/2u5aVJ3fzg4">(4) PC & IR + j/b address</a></li>
       <li><a href="https://youtu.be/TjYkV4oX3JU">(5) SR + beq r1 r2 offset</a></li>
       </td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-propuestos">Enunciados</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos">Soluciones</a> </li>
+      </td>
   </tr>
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
@@ -70,6 +80,12 @@
       </td>
       <td>
       </td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-propuestos">Enunciados caché</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-propuestos">Enunciados virtual</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos">Soluciones caché</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos">Soluciones virtual</a> </li>
+      </td>
   </tr>
 
   <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
@@ -78,74 +94,9 @@
       </td>
       <td>
       </td>
-  </tr>
-
- </table>
- </small>
-</html>
-
-
-### Ejercicios
-
-<html>
- <small>
- <table style="width:100%;" width="100%">
-  <tr><th></th><th>Tema</th><th>Enunciados</th><th>Soluciones</th></tr>
-
-  <tr><td>1</td><td>Introducción a los computadores</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-propuestos">Introducción</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t1-introduccion-resueltos">Introducción</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>2</td><td>Representación de la información</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-propuestos">Representación</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t2-representacion-resueltos">Representación</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-propuestos">Ensamblador RISC-V</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-resueltos">Ensamblador RISC-V</a> </li>
-	<li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
-      </td>
-  </tr>
-
-  <tr><td>4</td><td>El procesador </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-propuestos">Microprogramación</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t4-procesador-resueltos">Microprogramación</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>5</td><td>Jerarquía de memoria </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-propuestos">Memoria caché</a> </li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-propuestos">Memoria virtual</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriacache-resueltos">Memoria caché</a> </li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos">Memoria virtual</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-propuestos">Entrada y salida</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos">Entrada y salida</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-propuestos">Enunciados</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t6-es-resueltos">Soluciones</a> </li>
       </td>
   </tr>
 
@@ -418,3 +369,9 @@
     </table>
 </html>
 
+
+### Laboratorios
+
+<html>
+	<li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
+</html>
