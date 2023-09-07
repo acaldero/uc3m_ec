@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D790HJH70R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D790HJH70R');
+    </script>
+
+    <!-- Google tag (gtag.js) - Universal -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80849772-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-80849772-3');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"    content="user-scalable=yes, initial-scale=1,
+                             width=device-width,
+                             maximum-scale=2.5, minimum-scale=.5" />
+    <meta name="description" content="WepSIM homepage">
+    <meta name="author"      content="WepSIM authors">
+
+    <title>WepSIM</title>
+
+    <link  href="../external/bootstrap.min.css"  rel="stylesheet">
+    <link  href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"
+           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script src="../external/jquery.min.js"></script>
+    <script src="../external/popper.min.js"></script>
+    <script src="../external/bootstrap.min.js"></script>
+    <script src="../external/clipboard.min.js"></script>
+
+    <meta name="google-site-verification" content="gbIx0pN_mlbiXYFvWz9h251qfap7r2W4yMRkS2tVCS4" />
+
+    <style>
+	.carousel .carousel-indicators li {
+	   width: 20px;
+	  height: 20px;
+	  border-radius: 100%;
+	}
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md bg-dark fixed-top text-white p-1" id="nav1">
+        <div class="container">
+	    <div class="navbar-header page-scroll">
+		<a type="button" aria-expanded="false" aria-label="Toggle navigation"
+		   class="navbar-toggle navbar-toggler-right text-white btn-dark"
+		   data-bs-toggle="collapse" data-bs-target="#navbar-collapse-2">
+		<span class="sr-only">Toggle navigation</span> <span class="fa fa-bars"></span>
+		</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="navbar-collapse-2">
+		<ul class="navbar-nav ml-auto nav-fill flex-fill">
+		    <li class="nav-item m-1 mx-lg-2">
+                    <a class="nav-link text-white p-0" href="/index.html#page-top">Introduction</a>
+                    </li>
+
+		    <li class="nav-item m-1 mx-lg-2 dropdown">
+                    <a class="nav-link text-white p-0 dropdown-toggle"
+		       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                       href="/index.html#">Advantages</a>
+			    <div class="dropdown-menu">
+			       <a class="dropdown-item" href="/index.html#advantages_multidimension">From near NAND to almost tetris</a>
+			       <a class="dropdown-item" href="/index.html#advantages_learnonthego">Better learn-on-the-go</a>
+			    </div>
+                    </li>
+		    <li class="nav-item m-1 mx-lg-2 dropdown">
+                    <a class="nav-link text-white p-0 dropdown-toggle"
+		       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                       href="/index.html#">Getting WepSIM</a>
+			    <div class="dropdown-menu">
+		               <h6 class="dropdown-header px-1 text-secondary">WepSIM</h6>
+			       <a class="dropdown-item" href="/index.html#getwepsim_run">Run without install</a>
+			       <a class="dropdown-item" href="/index.html#getwepsim_install">Install WepSIM</a>
+			       <div class="dropdown-divider"></div>
+		               <h6 class="dropdown-header px-1 text-secondary">Source Code</h6>
+			       <a class="dropdown-item" href="/index.html#getwepsim_source">GitHub repository</a>
+			    </div>
+                    </li>
+
+		    <li class="nav-item m-1 mx-lg-2 dropdown">
+                    <a class="nav-link text-white p-0 dropdown-toggle"
+		       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                       href="/index.html#">Getting Started</a>
+			    <div class="dropdown-menu">
+		               <h6 class="dropdown-header px-1 text-secondary">Web</h6>
+			       <a class="dropdown-item" href="/index.html#gettingstarted_example">Learn with an Example</a>
+			       <a class="dropdown-item" href="/index.html#gettingstarted_lab">Steps of a typical session</a>
+			       <div class="dropdown-divider"></div>
+		               <h6 class="dropdown-header px-1 text-secondary">Command-line</h6>
+			       <a class="dropdown-item" href="/index.html#gettingstarted_cl">Options for executing</a>
+			       <a class="dropdown-item" href="/index.html#gettingstarted_cl2">Options for checking</a>
+			    </div>
+                    </li>
+		    <li class="nav-item m-1 mx-lg-2 dropdown">
+                    <a class="nav-link text-white p-0 dropdown-toggle"
+		       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                       href="/index.html#">Teaching with WepSIM</a>
+			    <div class="dropdown-menu">
+		               <h6 class="dropdown-header px-1 text-secondary">Examples</h6>
+			       <a class="dropdown-item" href="/index.html#teachingwithwepsim_ex1">Learn by examples</a>
+			       <div class="dropdown-divider"></div>
+		               <h6 class="dropdown-header px-1 text-secondary">Laboratories</h6>
+			       <a class="dropdown-item" href="/index.html#teachingwithwepsim_lab1">Assembly and security</a>
+			       <a class="dropdown-item" href="/index.html#teachingwithwepsim_lab1">Microprogramming</a>
+			    </div>
+                    </li>
+		    <li class="nav-item m-1 mx-lg-2 dropdown">
+                    <a class="nav-link text-white p-0 dropdown-toggle"
+		       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+	               href="/index.html#">Publications</a>
+			    <div class="dropdown-menu">
+		               <h6 class="dropdown-header px-1 text-secondary">Publications</h6>
+			       <a class="dropdown-item" href="/index.html#publications_en">English</a>
+			       <a class="dropdown-item" href="/index.html#publications_es">Spanish</a>
+			    </div>
+                    </li>
+		    <li class="nav-item m-1 mx-lg-2">
+                    <a class="nav-link text-white p-0" href="/index.html#authors">Authors</a>
+                    </li>
+		</ul>
+	    </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <nav id="page-top" class="navbar navbar-expand-lg bg-dark text-white p-1" id="nav2">
+        <div class="container p-0">&nbsp;</div>
+    </nav>
+
+
+    <!-- "advantages" Section -->
+    <section id="advantages" class="pt-5">
+        <div class="container">
+
+            <a name="lab2" id="lab2"></a>
+	    <br>
+
+
+<ul>
+  <li> <h5>Authors: Alejandro Calderón Mateos & Felix García Carballeira</h5></li>
+  <li> <h5>License: <a href="https://github.com/wepsim/wepsim.github.io/blob/master/LICENSE">GPL v3.0</a></h5></li>
+</ul>
+<br>
+
+
+<h2><b>Laboratory 2: microprogramming a compact instruction set</b></h2>
+<hr>
+
+The main goal of this laboratory is to learn how to design an instruction set for a computer.
+The main knowledge to be practiced are microprogramming, assembly programming and information representation.<br>
+<br>
+For the development of the laboratory, it is necessary to review the following concepts:
+<ul>
+	<li> The representation of integers, character strings, etc.</li>
+	<li> The main aspects of the assembly language.</li>
+	<li> The instruction format and addressing types.</li>
+	<li> The operation of a processor, including the stages of execution, microprogramming, etc.</li>
+</ul>
+
+The student is going to use the WepSIM simulator to be able to exercise in an interactive way the concepts and knowledge indicated above.<br>
+<br>
+This laboratory consists of 2 exercises that you can develop and test in <a href="https://wepsim.github.io/wepsim/">WepSIM</a>.
+
+
+<br><br>
+<h3><b>Exercise 1</b></h3>
+<hr>
+ 
+The company we are work with request you to <b>design, implement and test</b> a new instruction set similar to the RISC-V instruction set, using the WepSIM simulator.
+Instructions are listed in Table 1. The instructions will be encoded in 32 bits.
+<p>
+
+<div class="table-responsive">
+<table class="table table-striped table-bordered table-hover align-middle">
+<thead>
+<tr>
+<th> Instruction </th>
+<th> Format </th>
+<th> Associated functionality </th>
+<th> Status register</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lui RRE1, U32</td>
+<td>CO (31-26): 010010<br>RRE1 (25-21)<br>U32 (63-32)</td>
+<td>BR[RRE1] ← U32</td>
+<td>Not updated</td>
+</tr>
+<tr>
+<td>sw RRE1, (RRE2)</td>
+<td>CO (31-26): 010000<br>RRE1 (25-21)<br>RRE2 (20-16)</td>
+<td>Memory[RRE1] ← BR[RRE2]</td>
+<td>Not updated</td>
+</tr>
+<tr>
+<td>lw RRE1, (RRE2)</td>
+<td>CO (31-26): 010011<br>RRE1 (25-21)<br>RRE2 (20-16)</td>
+<td>BR[RRE1] ←Memory[RRE2]</td>
+<td>Not updated</td>
+</tr>
+<tr>
+<td>add RRE1, RRE2, RRE3</td>
+<td>CO (31-26): 011000<br>RRE1 (25-21)<br>RRE2 (20-16)<br>RRE3 (15-11)<br></td>
+<td>BR[RRE1]  ← BR[RRE2]  + BR[RRE3]</td>
+<td>Updated</td>
+</tr>
+<tr>
+<td>addi RRE1, RRE2, S16</td>
+<td>CO (31-26): 011010<br>RRE1 (25-21)<br>RRE2 (20-16)<br>S16 (15-0)</td>
+<td>BR[RRE1] ←BR[RRE2] +S16</td>
+<td>Updated</td>
+</tr>
+<tr>
+<td>neg RRE1, RRE2</td>
+<td>CO (31-26): 011011<br>RRE1 (25-21)<br>RRE2 (20-16)</td>
+<td>BR[RRE1]  ← 0 -  RRE2</td>
+<td>Updated</td>
+</tr>
+<tr>
+<td>bnz S16</td>
+<td>CO (31-26): 110011<br>S16  (15-0)</td>
+<td>IF (SR. Z)<br>PC ← PC + S16</td>
+<td>Not updated</td>
+</tr>
+<tr>
+<td>beq RRE1, RRE2, S10</td>
+<td>CO (31-26): 110100<br>RRE1 (25-21)<br>RRE2 (20-16)<br>S10 (9-0)</td>
+<td>IF (RRE1  x RRE2)<br>PC ← PC + S10</td>
+<td>Not updated</td>
+</tr>
+<tr>
+<td>jto RRE1 U16</td>
+<td>CO (31-26): 100001<br>RRE1 (25-21)<br>U16 (15-0)</td>
+<td>BR[RRE1] ← PC<br>PC ← U16</td>
+<td>Not updated</td>
+</tr>
+<tr>
+<td>jr RRE1</td>
+<td>CO (31-26): 100010<br>RRE1 (25-21)</td>
+<td>PC ← BR[RRE1]</td>
+<td>Not updated</td>
+</tr>
+<tr>
+<td>halt</td>
+<td>CO (31-26): 100011</td>
+<td>PC ← 0x00<br>SR ← 0x00</td>
+<td>Not updated</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<br>
+<html><center><em>Table 1.- RISC-V-like instruction set</em></center></html>
+
+<br>
+The notation used for the instructions is the following one:
+<ul>
+ <li> U32 refers to a 32-bit unsigned integer.
+ <li> U16 to a 16-bit unsigned integer.
+ <li> S16 to a 16-bit signed integer.
+ <li> S10 to a 10-bit signed integer value. 
+ <li> RRE will be used to denote RISC-V general purpose registers, which in this 32-bit version are 32 registers of 32-bit each. BR will be used to refer to the Register File, and BR[RRE1] to indicate the contents of the RRE1 register. The integers stored in register are two complements 32 bits integers.
+ <li> MEMORY[R] refers to the contents of the memory position whose address is stored in the R register.
+</ul>
+<br>
+
+The values "S16/S10" indicate that sign extension must be made while in "U16" no sign extension is made (filled with leading zeros).<br>
+<br>
+The following is the mapping between RISC-V registers and WepSIM registers. This association must be indicated in the register section of the microcode of the requested instructions.<br>
+<br>
+
+<div class="table-responsive">
+<table class="table table-striped table-bordered table-hover align-middle">
+<tr>
+	<th colspan="2"> RISC-V </th>
+	<th> WepSIM register </th>
+	<th> Meaning </th>
+</tr>
+<tr>
+	<td>x0</td>
+	<td>zero</td>
+	<td>R0</td>
+	<td>Contains a zero</td>
+</tr>
+<tr>
+	<td>x1</td>
+	<td>ra</td>
+	<td>R1</td>
+	<td>Call Return vAddress</td>
+</tr>
+<tr>
+	<td>x2</td>
+	<td>sp</td>
+	<td>R2</td>
+	<td>Stack pointer</td>
+</tr>
+<tr>
+	<td>x3</td>
+	<td>gp</td>
+	<td>R3</td>
+	<td>Global pointer</td>
+</tr>
+<tr>
+	<td>x4</td>
+	<td>tp</td>
+	<td>R4</td>
+	<td>Thread pointer</td>
+</tr>
+<tr>
+	<td>x5 ... x7</td>
+	<td>t0 ... t2</td>
+	<td>R5 ... R7</td>
+	<td>Temporary Records (1/2)</td>
+</tr>
+<tr>
+	<td>x8</td>
+	<td>fp</td>
+	<td>R8</td>
+	<td>Stack frame</td>
+</tr>
+<tr>
+	<td>x9</td>
+	<td>s1</td>
+	<td>R9</td>
+	<td>Record saved</td>
+</tr>
+<tr>
+	<td>x10 ... x11</td>
+	<td>a0 ... a1</td>
+	<td>R10 ... R11</td>
+	<td>Argument for functions (1/2) and return values</td>
+</tr>
+<tr>
+	<td>x12 ... x17</td>
+	<td>a2 ... a7</td>
+	<td>R12 ... R17</td>
+	<td>Function Argument (2/2)</td>
+</tr>
+<tr>
+	<td>x18 ... x27</td>
+	<td>s2 ... s11</td>
+	<td>R18 ... R27</td>
+	<td>Registers saved</td>
+</tr>
+<tr>
+	<td>x28... x31</td>
+	<td>t3 ... t6</td>
+	<td>R28 ... R31</td>
+	<td>Temporary Records (1/2)</td>
+</tr>
+</table>
+</div>
+<br>
+<center><em>Table 2.- RISC-V registers</em></center>
+
+<br>
+Each registers has two names and when programming it is possible to use both x0 or zero, x1 or ra, etc.<br>
+For the main control registers:
+<ul>
+	<li> The stack pointer register (sp) is the R2 register in the WepSIM elementary processor.</li>
+	<li> The status register is the SR register in the WepSIM processor.</li>
+	<li> The PC registry is the program counter register. </li>
+</ul>
+
+WepSIM RT1, RT2, and RT3 registers are transparent to the assembler programmer.<br>
+<br>
+In order to pass arguments to a subroutine in our RISC-V assembler, the a0... a7 registers will be used, and the a0 and a1 registers will be used to return results (one value in a0, and for two values a0 and a1). 
+In the case of our RISC-V, passing more than eight arguments to a subroutine, from ninth to last of the arguments would be passed on the stack.
+Consider that a subroutine has to keep the value within registers s0... s11, sp, fp and ra between calls.<br>
+<br>
+The results of this exercise are related to the design of the microcode (memory of laboratory) and the microcode itself (mc file for WepSIM).
+A valid implementation that minimizes the number of clock cycles will be assessed, briefly justifying in memory the design decisions that have been made to achieve this.<br>
+
+
+<br><br>
+<h3><b>Exercise 2</b></h3>
+<hr>
+
+To test the instructions of the exercise 1 you can encode the programs that you deem appropriate.
+However, the company asks us to carry out a program in assembler (in order to make a demonstration) that uses the RISC-V instruction set requested in exercise 1.<br>
+<br>
+The program to be encoded, using the RISC-V statements designed in the previous section, will have the same functionality as that of the following program written in high-level language:<br>
+<br>
+
+<ul>
+<pre>
+int32 vector[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 } ;
+
+int sumav ( int32 neltos, int32 *vector )
+{
+     int32 v0 = 0 ;
+     for (int32 i=0; i&lt;neltos; i++) {
+            v0 = v0 + vector[i] ;
+     }
+     return v0 ;
+}
+
+int main ( int argc, char *argv[] )
+{
+     int32 ret = sumav(10, vector) ;
+     exit(0) ;
+}
+</pre>
+</ul>
+
+This program has a <b>sumav</b> routine that receives two arguments: the number of elements of an integer vector and the start direction of that integer vector.
+The routine returns the sum of the numbers contained in the vector passed by argument. 
+There is also a <b>main</b> routine that takes care of calling the <b>sumav</b> routine and ending the program.
+Note the registers used in the convention for argument passing on this RISC-V are described at the end of Exercise 1.<br>
+<br>
+The results of this exercise must be indicated both, the part of the memory corresponding to this exercise and in the file associated with the requested functionality.<br>
+<br>
+
+
+<br>
+<span class="btn btn-secondary" data-bs-toggle="collapse" href="#coll_e3_help" role="button" aria-expanded="false" aria-controls="coll_e3_help">
+    Click here for some help on this exercise...
+</span>
+</p>
+<div class="collapse" id="coll_e3_help">
+  <div class="card card-body">
+<br>
+<span>Tip: this subrutine is part of the WepSIM <a href="https://acaldero.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=4">example 4</a></span></br>
+<p></p>
+
+<pre>
+.data
+           w3: .word 1, 2, 3, 4, 5
+
+.text
+main:
+         li  x3  1
+         li  x4  4
+         la  x5  w3
+         li  x7  0
+
+         # loop initialization
+         li  x1  0
+         li  x2  5
+
+         # loop header
+  loop1: beq x1 x2 end1
+
+         # loop body
+         mul x6 x1 x4
+         add x6 x6 x5
+         lw  x6 0(x6)
+         add x7 x7 x6
+
+         # loop next...
+         add x1 x1 x3
+         beq x0 x0 loop1
+
+         # loop end
+   end1: jr ra
+</pre>
+  </div>
+</div>
+
+
+
+<br><br>
+<h2><b>Extra material</b></h2>
+<hr>
+
+<h4>Save a <u>checkpoint</u> with WepSIM</h4>
+
+WepSIM allows you to save the entire working session into a single file. This session can include the requested microcode, the assembly code, the states at different execution points, and a recording of the work session. In this way it is more agile to continue the work or share that work among members of the laboratory group.<br>
+<br>
+To do this you have to use what in the WepSIM simulator is called <u>checkpoint</u>. The following are the steps to save a checkpoint:
+<ul>
+	<li> In the run mode menu select the <u>"Checkpoint"</u> option. </li>
+	<li> Enter the file name in the "File name:" field, then press the "Save" button to save the file. </li>
+	<li> <b>Check that the file has been saved correctly and contains everything ordered in the statement.</b> </li>
+</ul>
+<br>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- "License" -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	 <span class="text-white mr-auto">&copy; 2015-2023</span>
+	 <span class="text-white ml-auto"><a href="http://www.gnu.org/licenses/">LGPL 3.0</a></span>
+    </nav>
+
+</body>
+
+
+<script>
+    var clipboard = new ClipboardJS('.c2c') ;
+
+    $(function () {
+       $('[data-bs-toggle="tooltip"]').tooltip() ;
+    }) ;
+</script>
+
+
+</html>
+
