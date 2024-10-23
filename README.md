@@ -58,6 +58,7 @@
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-1.pdf">t4-procesador-1</a></li>
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf">t4-procesador-2</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-3.pdf">t4-procesador-3</a></li>
       </td>
       <td>
       <li><a href="https://youtu.be/bg_fx1A6sCU">(1) Registros + swap R1 R2</a></li>
