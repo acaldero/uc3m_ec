@@ -277,7 +277,7 @@
                 <td class="align-middle" rowspan="2">
                     <ol class="p-2" start="2">
                         <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf"><u>Diseño de la Unidad de Control</u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf"><u>Interrupciones, arranque y estado del procesador</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-3.pdf"><u>Interrupciones, arranque y estado del procesador</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
