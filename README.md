@@ -91,7 +91,8 @@
 
   <tr><td>6</td><td>Técnicas de E/S y dispositivos periféricos</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t6-es.pdf">t6-es</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t6-es-1.pdf">t6-es-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t6-es-2.pdf">t6-es-2-discos</a></li>
       </td>
       <td>
       </td>
