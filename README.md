@@ -1,5 +1,5 @@
 ## Materiales para Estructura de Computadores
-+ Curso 2022-2023
++ Curso 2024-2025
 + Licencia [CC BY-NC 4.0](http:/creativecommons.org/licenses/by-nc/4.0/) 
 
 ### Transparencias y videos
