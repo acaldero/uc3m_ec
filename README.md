@@ -269,7 +269,7 @@
                 <td class="align-middle ">
                         <li>Para WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=2">T116 (lw  r1, addr)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=1">T116 (lw  r1, addr)</a><br>
                         </div>
                 </td>
             </tr>
@@ -320,6 +320,10 @@
                     <li><a href="https://acaldero.github.io/uc3m_ec/ejercicios/t5-memoriavirtual-resueltos"><u>Resueltos L5-virtual</u><u></u></a></li>
                 </td>
                 <td class="align-middle ">
+                        <li>Para WepSIM:</li>
+                        <div class="">
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://acaldero.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=2&asm=FAYlAIHUFMAcGUCSBZcAKAFgFy7AzgFwD0RA7nHgJYC2AdAOaVYYCuARrZQPZkU1EBKUMGC0s0AB5Zg1AIaUAdgWDhVatSHAAzLgCd0EgIwBeAAwBucEfABCY+ACslowGoXQ9Z4A2lVdfCmKp5qPn4ATKoOQV5cXLCGBOBs0ACOVoZWEdAKACaGQcHgmgDeBcGaqrRVZYWqsjk5vtbW+bWeyWkSplbdMXGttZoAviJB2XnKbZo6+mhGZs4ZADyOi24etaHpqoFtWxIRjtGxsGGJbPTQ2wfg42E16iUPGmpVtM-B9Y3XGQNtqh0ekC+qcPkVwCMRKo7pNBto9AYTBZtkt7E50uswfsMgEsb5MpFjnEAMznehYa5ZXLEsFPKavar-NRfJoZFpg9SArrAk40+mQgrjUngABW+l0shEQA&cache=NobwRAxgZg5mBc4B2BDAtgUwQBgDRgDcBLFAfQGciAvLeARgCZ8B7KKC62gVn3IwBcONBADZ8BAA7khtMWH4oYMhAzr40KcgGtSCuPAAsDAJwHjIrgwMAOdZp19+K7HTkbtpVlAQBmNWAAnDAkAGxQIDFIJZhCEMCgiKGYwXgBXKJi41KREogwAExSwJAwAD0EIcIALWjA6MABfBtxwaH1kdFp-YjJKYXomMC9leB4wRxG5SWk+2Xw9EdU7Dz0EI1NzSxtlhwFnVx3PNl9-INDwyOjY+HjE5LSM67Bs3IKikvLSSogahABaOhNAC6QA&notify=false&simulator=assembly:cache">Dos niveles de caché</a>
+                        </div>
                 </td>
             </tr>
             <tr class="m-2 p-2">
