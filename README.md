@@ -379,10 +379,21 @@
 
 ### Laboratorios
 
-<html>
-        <ul>
-	<li> <a href="https://acaldero.github.io/uc3m_ec/laboratorios/rv_lab2_en.html">Microprogramming a compact instruction set</a></li>
-	<li> <a href="https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos">RISC-V vs MIPS32</a></li>
-        </ul>
-</html>
+* Tema 3: ensamblador
+  * [RISC-V vs MIPS32](https://acaldero.github.io/uc3m_ec/ejercicios/t3-ensamblador-ejemplos)
+* Tema 4: procesador
+  * [Microprogramming a compact instruction set](https://acaldero.github.io/uc3m_ec/laboratorios/rv_lab2_en.html)
+
+
+### Curiosidades
+
+* Tema 4: procesador
+  * [Breve historia de la microprogramación](https://people.computing.clemson.edu/~mark/uprog.html)
+  * [Curiosidad: máquina de canicas...](https://www.youtube.com/watch?v=X6HqbpikejQ)
+  * [Curiosidad: undocumented x86 instructions allow microcode access...](https://hackaday.com/2021/03/26/undocumented-x86-instructions-allow-microcode-access/)
+* Tema 5: memoria
+  * [How does Computer Memory Work?](https://www.youtube.com/watch?v=7J7X7aZvMXQ)
+* Tema 6: E/S
+  * [Curiosidad: los HDD resisten: Seagate lanza un chip con RISC-V para triplicar el rendimiento](https://www.profesionalreview.com/2020/12/09/seagate-risc-v/)
+  * [How do Hard Disk Drives Work?](https://www.youtube.com/watch?v=wtdnatmVdIg)
 
