@@ -1,5 +1,5 @@
 ## Materiales para Estructura de Computadores
-+ Curso 2024-2025
++ Curso 2026-2027
 + Licencia [CC BY-NC 4.0](http:/creativecommons.org/licenses/by-nc/4.0/) 
 
 ### Transparencias y videos
@@ -26,7 +26,8 @@
 
   <tr><td>2</td><td>Representación de la información</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion.pdf">t2-representacion</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-1.pdf">t2-representacion-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-2.pdf">t2-representacion-2</a></li>
       </td>
       <td> </td>
       <td>
