@@ -42,6 +42,7 @@
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf">t3-ensamblador-2</a></li>
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf">t3-ensamblador-3</a></li>
         <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf">t3-ensamblador-4</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-5.pdf">t3-ensamblador-5</a></li>
       </td>
       <td>
       <li><a href="https://youtu.be/6W1DJ6jqn58">(1) Registros y memoria</a></li>
