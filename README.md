@@ -26,8 +26,8 @@
 
   <tr><td>2</td><td>Representación de la información</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-1.pdf">t2-representacion-1</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-2.pdf">t2-representacion-2</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-1.pdf">t2-repre-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-2.pdf">t2-repre-2-decimales</a></li>
       </td>
       <td> </td>
       <td>
@@ -38,11 +38,11 @@
 
   <tr><td>3</td><td>Fundamentos de la programación en ensamblador</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf">t3-ensamblador-1</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf">t3-ensamblador-2</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf">t3-ensamblador-3</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf">t3-ensamblador-4</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-5.pdf">t3-ensamblador-5</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-1.pdf">t3-asm-1de5</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-2.pdf">t3-asm-2de5</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-3.pdf">t3-asm-3de5</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf">t3-asm-4de5</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-5.pdf">t3-asm-5de5</a></li>
       </td>
       <td>
       <li><a href="https://youtu.be/6W1DJ6jqn58">(1) Registros y memoria</a></li>
@@ -58,9 +58,9 @@
 
   <tr><td>4</td><td>El procesador </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-1.pdf">t4-procesador-1</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf">t4-procesador-2</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-3.pdf">t4-procesador-3</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-1.pdf">t4-cpu-1de3</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-2.pdf">t4-cpu-2de3</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t4-procesador-3.pdf">t4-cpu-3de3</a></li>
       </td>
       <td>
       <li><a href="https://youtu.be/bg_fx1A6sCU">(1) Registros + swap R1 R2</a></li>
@@ -77,9 +77,9 @@
 
   <tr><td>5</td><td>Jerarquía de memoria </td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-1-intro.pdf">t5-memoria-1-intro</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-2-cache.pdf">t5-memoria-2-cache</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-3-virtual.pdf">t5-memoria-3-virtual</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-1-intro.pdf">t5-mem-1-intro</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-2-cache.pdf">t5-mem-2-cache</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_ec/transparencias/t5-memoria-3-virtual.pdf">t5-mem-3-virtual</a></li>
       </td>
       <td>
       </td>
@@ -182,13 +182,13 @@
                         </div>
                         <li>Para CREATOR:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e1">T31</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e2">T32</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e3">T35</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e4">T49</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e6">T54</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e7">T57</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e8">T60</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=default&example=e1">T31</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=default&example=e2">T32</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=default&example=e3">T35</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=default&example=e4">T49</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=default&example=e6">T54</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=default&example=e7">T57</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=default&example=e8">T60</a>
                         </div>
                 </td>
             </tr>
