@@ -139,7 +139,8 @@
                 <td class="align-middle">L2.- Representación de la información</td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion.pdf"><u>Representación de la información</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-1.pdf"><u>Representación: enteros</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t2-representacion-2.pdf"><u>Representación: decimales</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
@@ -251,7 +252,8 @@
                 <td class="align-middle"><span class="badge bg-info">S-5</span></td>
                 <td class="align-middle">
                     <ol class="p-2" start="4">
-                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf"><u>Llamadas a funciones y pila<br></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-4.pdf"><u>Coma flotante<br></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_ec/transparencias/t3-ensamblador-5.pdf"><u>Llamadas a funciones y pila<br></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
